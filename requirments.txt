@@ -1,0 +1,37 @@
+Changes for website:
+-We need a team section
+
+-Add the Explainer video to cover the entire webpage- we will provide or add a link later, on just make sure the capability is there.
+
+-add charts
+
+-Add bithemoth to partners.- https://cdn.discordapp.com/attachments/451104355110879262/451461377761214464/logo.png
+
+-Create and connect a Medium page to the news room https://medium.com/@support_34259
+Maybe using this: https://wordpress.org/plugins/display-medium-posts/
+
+-Add medium + Reddit to the bottom part of the website.
+
+Change Roadmap:
+Q2 2018
+-Chain swap
+-Rebrand
+-Masternode Release
+-Platform open alpha
+-Axiom token distribution
+
+Q3 2018
+-Platform Beta
+-Axiom signature support - Support to enter a castle signed message and receive your dividends directly into your wallet.
+-Partner reward Program - Giving users a reward for bringing a partner to castle
+-Masternode consensus on partners -MN holders will have to vote on the legitimacy of projects.
+-Platform decentralisation - The masternodes will hold distributed copies of the platform
+-Axiom electrum Wallet
+-iOS Wallet
+
+Q4 2018
+-Axiom Core 0.02 - Will include the first implementations of the protocol, and interoperability.
+-Axiom J - A native java implementation of the Axiom protocol
+-Platform Ethereum native compatibility - all transactions will be executed from the castle network but will have bearing in the Ethereum blockchain
+-Trezor support
+-Ledger support

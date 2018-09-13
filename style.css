@@ -1,0 +1,396 @@
+/**
+ * Theme Name: Axioms
+ * Theme URI: https://axioms.app/
+ * Author: AlviMax
+ * Author URI: https://github.com/alvimaxau/
+ * Description: Responsive Onepage WordPress Parallax Portfolio Theme by AlviMax
+ * Version: 1.0.0
+ * License: GNU General Public License v2 or later
+ * License URI: LICENSE
+ * Text Domain: axioms
+ * Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+ * This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+ **/
+@font-face {
+    font-family: 'Futura PT Extra';
+    src: url('fonts/FuturaPT-ExtraBold.eot');
+    src: url('fonts/FuturaPT-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FuturaPT-ExtraBold.woff') format('woff'),
+        url('fonts/FuturaPT-ExtraBold.ttf') format('truetype'),
+        url('fonts/FuturaPT-ExtraBold.svg#FuturaPT-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('fonts/FuturaPT-Heavy.eot');
+    src: url('fonts/FuturaPT-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FuturaPT-Heavy.woff') format('woff'),
+        url('fonts/FuturaPT-Heavy.ttf') format('truetype'),
+        url('fonts/FuturaPT-Heavy.svg#FuturaPT-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT Demi';
+    src: url('fonts/FuturaPT-Demi.eot');
+    src: url('fonts/FuturaPT-Demi.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FuturaPT-Demi.woff') format('woff'),
+        url('fonts/FuturaPT-Demi.ttf') format('truetype'),
+        url('fonts/FuturaPT-Demi.svg#FuturaPT-Demi') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('fonts/FuturaPT-Bold.eot');
+    src: url('fonts/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FuturaPT-Bold.woff') format('woff'),
+        url('fonts/FuturaPT-Bold.ttf') format('truetype'),
+        url('fonts/FuturaPT-Bold.svg#FuturaPT-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT Book';
+    src: url('fonts/FuturaPT-Book.eot');
+    src: url('fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FuturaPT-Book.woff') format('woff'),
+        url('fonts/FuturaPT-Book.ttf') format('truetype'),
+        url('fonts/FuturaPT-Book.svg#FuturaPT-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('fonts/FuturaPT-Light.eot');
+    src: url('fonts/FuturaPT-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FuturaPT-Light.woff') format('woff'),
+        url('fonts/FuturaPT-Light.ttf') format('truetype'),
+        url('fonts/FuturaPT-Light.svg#FuturaPT-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+header .entry-title {
+	display: none;
+}
+.chart_block {
+    border-radius: 0 10px 10px 10px;
+}
+.chart-bar {
+    width: 100%;
+    overflow: hidden;
+}
+.chart-black {
+    width: 50%;
+    background: #2a304a;
+    color: #fff;
+    display: flex;
+    border-radius: 10px 10px 0 0;
+}
+.chart-bar .chart-button {
+    white-space: normal;
+}
+.chart-bar .chart-bar-item {
+    background: #D3D4D9;
+	color: white;
+    padding: 10px 20px;
+    border-radius: 0px 0px 0px 15px;
+    box-shadow: 1px -15px 15px;
+    text-transform: uppercase;
+    width: 300px;
+}
+.chart-hover {
+    border-radius: 5px 10px 5px !important;
+    box-shadow: 1px -15px 15px;
+    color: #fff !important;
+    background-color: #2a304a !important;
+}
+.soc_item {
+    color: #eb5e61;
+}
+.social_items a i:hover {
+    color: #000000;
+}
+.slide_circle {
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    font-size: 25px;
+    color: #EB5E61;
+}
+.slider_wrap .slider {
+    height: auto;
+    padding: 5% 0;
+}
+.arrow_box p {
+    font-size: 13px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.slide_tooltip {
+    width: 400px;
+    height: auto;
+    right: 90%;
+}
+.swiper-container .swiper-slide {
+    display: list-item;
+}
+.swiper-slide .slide_content .slide_circle p span {
+    display: none;
+}
+.swiper-slide .slide_content .slide_circle p {
+    font-weight: bold;
+}
+.swiper-slide-active .slide_content .slide_circle p span {
+    display: block !important;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.partners_wrap {
+    background: #D3D4D9;
+}
+.wallets_title {
+    color: #EB5F62;
+}
+.wallet_item svg {
+    color: #1B203D;
+    fill: #1B203D;
+}
+.wallets_wrap {
+    background: #FFFFFF;
+}
+.teams {
+    padding: 100px 0 110px;
+}
+.teams_wrap {
+    background: #4D4D4D;
+}
+.teams_title {
+    font-size: 20.28px;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 40px;
+}
+.teams_location {
+    text-align: center;
+    color: #808080;
+    line-height: 60px;
+}
+.teams_ico {
+    width: 85px;
+    height: 85px;
+    margin: 0 auto;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    overflow: hidden;
+-webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.2);
+   -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.2);
+        box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.2);
+}
+.teams_ico img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.teams_items {
+    display: flex;
+}
+.teams_item {
+    width: 20%;
+    padding: 15px;
+}
+.teams_item p {
+    color: #f7f7f7;
+}
+.newsrooms_wrap {
+    background: #19172F;
+}
+.newsrooms_title {
+    font-size: 20.28px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 65px;
+    letter-spacing: 3px;
+}
+#display-medium-owl-demo .medium-image {
+    max-width: 85px;
+    border-radius: 50%;
+    margin: 0 auto;
+    height: 85px;
+    float: left;
+    width: 85px;
+    margin-right: 10%;
+    margin-bottom: 15%;
+}
+#display-medium-owl-demo .details-title {
+    border-bottom: 0px solid #212121;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding-bottom: 2%;
+}
+#display-medium-owl-demo .display-medium-subtitle {
+    color: #808080;
+}
+#display-medium-owl-demo .display-medium-date-read span {
+    color: #FFFFFF;
+    padding-bottom: 1%;
+}
+#display-medium-owl-demo .display-medium-date-read a {
+    color: #EB5E61;
+}
+
+.video-page {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.popup {
+    position:absolute;
+    z-index:2;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    opacity:0;
+    visibility:hidden;
+    transition:.3s ease;
+}
+
+.show-popup .popup {
+    opacity:1;
+    visibility: visible;    
+}
+
+.popup > iframe {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -280px;
+    width: 1155px;
+    height: 600px;
+}
+
+/*.axioms-modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+.axioms-modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+.axioms-modal .fade .axioms-modal-dialog {
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -o-transition: -o-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    -webkit-transform: translate(0,-25%);
+    -ms-transform: translate(0,-25%);
+    -o-transform: translate(0,-25%);
+    transform: translate(0,-25%);
+}
+.axioms-modal-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+.axioms-modal-body {
+    position: relative;
+    padding: 15px;
+}*/
+@media (max-width: 480px) {
+    .slide_tooltip {
+        width: 95%;
+        right: -7px;
+    }
+    .teams_items {
+        display: block;
+    }
+    .teams_item {
+        width: 100%;
+    }
+    .chart-black {
+        width: 100%;
+    }
+    .chart-bar .chart-bar-item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 667px) {
+    .hello_text > p {
+        text-align: left;
+    }
+    .hello_wrap {
+        display: block;
+    }
+    .hello_text {
+        width: 100%;
+    }
+    .hello_img {
+        width: 100%;
+    }
+    .popup > iframe {
+        position: absolute;
+        top: 50px;
+        width: 317px;
+        height: 400px;
+        margin-left: -118px;
+    }
+}
+
+.yu2fvl {
+    z-index: 9999;
+    top: 0;
+}
+
+.yu2fvl-iframe {
+    display: block;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+.yu2fvl-overlay {
+    z-index: 9998;
+    background: #000;
+    opacity: 0.8;
+}
+
+.yu2fvl-close {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    color: #fff;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}

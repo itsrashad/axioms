@@ -1,6 +1,6 @@
 === Axioms ===
 
-Contributors: alvimax
+Contributors: itsrashad
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
 Requires at least: 4.5
@@ -13,7 +13,7 @@ A starter theme called Axioms.
 
 == Description ==
 
-Responsive Onepage WordPress Parallax Portfolio Theme by AlviMax
+Responsive Onepage WordPress Parallax Portfolio Theme by itsRashad
 
 == Installation ==
 

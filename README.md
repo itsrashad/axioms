@@ -1,6 +1,6 @@
 _Axioms
 ===
-Hi. I'm a starter theme called `axioms`, or `alvimax`, if you like. I'm a theme meant for axioms custom development so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+Hi. I'm a starter theme called `axioms`, or `itsrashad`, if you like. I'm a theme meant for axioms custom development so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
 My ultra-minimal CSS might make me look like theme tartare but that means less stuff to get in your way when you're designing your awesome theme. Here are some of the other more interesting things you'll find here:
 * A just right amount of lean, well-commented, modern, HTML5 templates.
 * A helpful 404 template.
@@ -20,7 +20,7 @@ If you want to keep it simple, head over to https://axioms.app and generate your
 
 === Axioms ===
 
-Contributors: alvimax
+Contributors: itsrashad
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
 Requires at least: 4.5
@@ -33,7 +33,7 @@ A starter theme called Axioms.
 
 == Description ==
 
-Responsive Onepage WordPress Parallax Portfolio Theme by AlviMax
+Responsive Onepage WordPress Parallax Portfolio Theme by itsRashad
 
 == Installation ==
 
